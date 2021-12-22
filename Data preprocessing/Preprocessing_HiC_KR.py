@@ -78,6 +78,7 @@ for i in range(1,23):
     prepare_straw(str(i),
                   hic_file="4DNFI1UEG1HD_GM12878.hic",
                   save_name="straw_files/straw_chr"+str(i)+".txt",
+                  normalization_method = "KR",
                   bin_size=10000)
 
 #2. Extract diagonal vectors
